@@ -1,0 +1,9 @@
+echo "word_transform" && ./word_transform data/trans-map data/trans-text
+echo "query" && ./query data/Alice_story < data/query_in
+echo "3ed_query" && ./3ed_query data/Alice_story < data/query_in
+
+echo "word_count" && ./word_count < word_count.cc
+echo "erasemap" && ./erasemap < erasemap.cc
+echo "setexclusion" && ./setexclusion data/remove_words < README
+
+../noinput multimap

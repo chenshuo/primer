@@ -1,0 +1,6 @@
+echo "cnt_found" && ./cnt_found < data/find
+echo "find_word" && ./find_word <data/find
+
+../noinput andtest arraysizeof assignment cond cond2 incr int-div oknew \
+	   overflow prec shift-prec sizeof_arr sizeof_pgm vec_init \
+	   warn_dbltoint

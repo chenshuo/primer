@@ -1,0 +1,7 @@
+echo "exception_example" && ./exception_example < data/add_item
+echo "exception_example" && ./exception_example < data/bad_items
+echo "doWhile" && ./doWhile <data/doWhile
+echo "vowels" && ./vowels <README
+echo "othercnt" && ./othercnt <README
+
+../noinput copy_array forcount nodebug wdebug

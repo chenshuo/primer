@@ -1,0 +1,5 @@
+echo "Query" && ./Query data/Alice_story <data/query_in
+echo "main4" && ./main4 data/Alice_story <data/main4_in
+echo "main5" && ./main5 data/Alice_story <data/main5_in
+
+../noinput Basket_main V2_Basket_main bsk2 scope

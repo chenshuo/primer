@@ -1,0 +1,8 @@
+echo "string_io" && ./string_io < data/string_io
+echo "string_io2" && ./string_io2 < data/string_io
+echo "word_echo" && ./word_echo < data/word_echo
+echo "getline" && ./getline < data/word_echo
+echo "add_using" && ./add_using <data/add_using
+
+../noinput bits cctype str_vers2 str_vers3 strcompare string_add \
+	   string_size vec_assign

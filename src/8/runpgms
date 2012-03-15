@@ -1,0 +1,11 @@
+echo "no-skipws" && ./no-skipws < data/chars
+echo "skipws" && ./skipws < data/chars
+echo "skipws" && ./getput < data/chars
+echo "getc" && ./getc < data/chars
+echo "badgetc" && ./badgetc < data/badgetc
+
+echo "main-proto" && ./main-proto main-proto.cc
+cp data/seek copyOut           # get fresh copy of the data file
+echo "seek" && ./seek copyOut
+
+../noinput buf manips point prec sci_dec setw sstream use-getopen

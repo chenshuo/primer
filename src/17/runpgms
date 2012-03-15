@@ -1,0 +1,5 @@
+echo "book" && ./book <data/add_item
+echo "book" && ./book <data/bad_item
+
+../noinput use-handle
+

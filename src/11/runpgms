@@ -1,0 +1,14 @@
+echo "use_equalrange" && ./use_equalrange < data/use_equalrange
+echo "use_find" && ./use_find < data/use_find
+echo "arrow" && ./arrow < data/arrow
+echo "use-ostream-iter" && ./use-ostream-iter < data/use-ostream-iter
+echo "iostream_iter" && ./iostream_iter < data/iostream_iter
+echo "use-istream-iter" && ./use-istream-iter < data/iostream_iter
+echo "equiv-istream-iter" && ./equiv-istream-iter < data/iostream_iter
+echo "reverse-iter" && ./reverse-iter < data/reverse-iter
+echo "parms" && ./parms < data/parms
+echo "elim-dups" && ./elim-dups < data/fox_story
+echo "count-size" && ./count-size < data/fox_story
+echo "vocab" && ./vocab < data/vocab
+
+../noinput innerprod inserters rev-iters scores
