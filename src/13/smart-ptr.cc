@@ -97,9 +97,9 @@ ostream& operator<<(ostream &os, const HasPtr &hp)
 
 int main()
 {
-    int obj = 0;
+    int* obj = new int(0);
 
-    HasPtr ptr1(&obj, 42);
+    HasPtr ptr1(obj, 42);
     HasPtr ptr2(ptr1);
     cout << "(1) ptr1: " << ptr1 << endl << "ptr2: " << ptr2 << endl;
 
